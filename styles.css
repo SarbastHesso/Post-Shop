@@ -1,8 +1,11 @@
+/* color theme  */
 /* header-bg: #3DE07E  */
 /* red-btn: #E83F57  */
 /* footer-bg: #333333  */
 /* checkout-table-header-bg: #2F0B0B  */
 
+
+/* general settings  */
 
 * {
     margin: 0;
@@ -15,13 +18,18 @@ body {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* Header  */
 header {
     background-color: #3DE07E ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 600px;
+    height: 400px;
 }
 /* nav icon  */
 header .navicon {
@@ -32,9 +40,109 @@ header .navicon {
 /* page title, Poster Shop  */
 header h1 {
     align-self: center;
-    font-size: 7rem;
+    font-size: 4rem;
 }
 /* Ninjahead image  */
 header .ninjahead {
     align-self: center;
+    max-width: 200px;
+}
+
+/* main  */
+main {
+ margin: 5rem 0;
+}
+
+/* small-cards section  */
+.small-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+/* one card in small-cards  */
+.small-card {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+
+}
+
+.small-card .card-img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.small-card .card-title {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.small-card .card-text {
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.small-card .card-btn {
+    width: 150px;
+    padding: .5rem 1rem;
+    background-color: #E83F57;
+    color: #ffffff;
+    font-size: .8rem;
+    border-radius: .2rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+/* medium-cards section  */
+.medium-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+/* medium-card  */
+.medium-card {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    background-color: #ffffff;
+}
+
+.medium-card .card-img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.medium-card .card-title {
+    font-size: 2rem;
+    color: #000000;
+    margin: 0 1rem;
+}
+
+.medium-card .card-text {
+    color: #000000;
+    margin: 1rem 1rem 3rem;
+}
+
+.medium-card .card-btn {
+    width: 150px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #E83F57;
+    color: #ffffff;
+    font-size: .8rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
