@@ -135,7 +135,7 @@ main {
 }
 
 .medium-card .card-btn {
-    width: 150px;
+    width: 170px;
     padding: 1rem;
     margin: 1rem;
     background-color: #E83F57;
@@ -145,4 +145,52 @@ main {
     cursor: pointer;
     border: none;
     outline: none;
+}
+
+/* footer  */
+footer {
+    background-color: #333333 ;
+    padding: 3rem 3rem 6rem;
+}
+
+.footer-groups {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.nav-group, .address-group, .social-media-group {
+    margin-bottom: 1rem;
+    flex: 1 1 30%;
+}
+
+.nav-group nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-group nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer h3 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+footer p{
+    color: #ffffff;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer ul li {
+    margin-right: 1.1rem;
+    cursor: pointer;
 }
