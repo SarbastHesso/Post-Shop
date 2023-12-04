@@ -63,12 +63,12 @@ main {
 
 /* one card in small-cards  */
 .small-card {
-    flex: 1 1 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 1rem;
-
+    max-width: 30%;
+    min-width: 220px;
 }
 
 .small-card .card-img {
@@ -110,7 +110,8 @@ main {
 
 /* medium-card  */
 .medium-card {
-    flex: 1 1 0%;
+    max-width: 47%;
+    min-width: 220px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -162,7 +163,8 @@ footer {
 
 .nav-group, .address-group, .social-media-group {
     margin-bottom: 1rem;
-    flex: 1 1 30%;
+    max-width: 30%;
+    min-width: 220px;
 }
 
 .nav-group nav {
