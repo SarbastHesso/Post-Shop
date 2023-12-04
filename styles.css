@@ -1,0 +1,40 @@
+/* header-bg: #3DE07E  */
+/* red-btn: #E83F57  */
+/* footer-bg: #333333  */
+/* checkout-table-header-bg: #2F0B0B  */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header  */
+header {
+    background-color: #3DE07E ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+/* nav icon  */
+header .navicon {
+    align-self: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+}
+/* page title, Poster Shop  */
+header h1 {
+    align-self: center;
+    font-size: 7rem;
+}
+/* Ninjahead image  */
+header .ninjahead {
+    align-self: center;
+}
