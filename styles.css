@@ -230,9 +230,18 @@ footer ul li {
     padding-right: 2rem;
 }
 
+.checkout-item p, .checkout-item span, .checkout-total p, .checkout-total span {
+    font-size: 1.2rem;
+}
+
+.checkout-total p, .checkout-total span {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
 .checkout-items>div:last-child {
-    border-bottom: 2px solid #ffffff;
-    padding-bottom: 1rem;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
 }
 
 .checkout button {
