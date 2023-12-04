@@ -110,7 +110,7 @@ main {
 
 /* medium-card  */
 .medium-card {
-    max-width: 47%;
+    max-width: 46%;
     min-width: 220px;
     display: flex;
     flex-direction: column;
