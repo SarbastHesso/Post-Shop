@@ -45,6 +45,7 @@ header .navicon {
     align-self: flex-start;
     margin: 1rem;
     padding: 1rem;
+    cursor: pointer;
 }
 /* page title, Poster Shop  */
 header h1 {
