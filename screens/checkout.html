@@ -8,9 +8,16 @@
   </head>
   <body>
     <!-- Header: navicon, page title and ninja image  -->
-    <header>
-      <nav>
-        <img class="navicon" src="../assets/navicon.svg" alt="navicon" />
+    <header id="header">
+      <nav id="nav">
+        <img src="../assets/navicon.svg" alt="navicon" id="navicon" />
+        <div id="navbar">
+          <ul id="nav-items">
+            <li id="nav-item"><a href="../index.html">Poster Shop</a></li>
+            <li id="nav-item"><a href="checkout.html">Checkout</a></li>
+          </ul>
+          <button id="close-icon">X</button>
+        </div>
       </nav>
       <h1>Checkout</h1>
       <img class="ninjahead" src="../assets/ninjahead.svg" alt="ninjahead" />
@@ -118,5 +125,6 @@
         </div>
       </div>
     </footer>
+    <script src="../script.js"></script>
   </body>
 </html>

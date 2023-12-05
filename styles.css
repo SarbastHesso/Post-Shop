@@ -41,7 +41,7 @@ header {
     height: 400px;
 }
 /* nav icon  */
-header .navicon {
+header #navicon {
     align-self: flex-start;
     margin: 1rem;
     padding: 1rem;
@@ -253,3 +253,39 @@ footer ul li {
     align-self: flex-end;
 }
 
+
+
+/* toggle nav */
+/* navbar styling  */
+#navbar {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 5px 0 #000000;
+    padding: .8rem;
+}
+
+#nav-items {
+    list-style: none;
+    display: flex;
+}
+
+#nav-item {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#nav-item a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#close-icon {
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: #000000;
+}
