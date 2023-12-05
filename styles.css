@@ -271,14 +271,14 @@ footer ul li {
 }
 
 #nav-item {
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    font-weight: bold;
+    padding: 1rem 2rem;    
 }
 
 #nav-item a{
     text-decoration: none;
     color: #000000;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 #close-icon {
@@ -289,3 +289,46 @@ footer ul li {
     background-color: transparent;
     color: #000000;
 }
+
+@media only screen and (max-width:1400px ){
+    .container {
+        width: 90%;
+    }
+    .small-cards, .medium-cards {
+        justify-content: center;
+    }
+    .checkout-subtitle {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1200px ){
+    .container {
+        width: 90%;
+    }
+    .small-cards, .medium-cards {
+        justify-content: center;
+    }
+    .checkout-subtitle {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:576px ){
+    header h1 {
+        font-size: 3rem;
+    }
+
+    #nav-item {
+        padding: 1rem;
+    }
+
+    #nav-item a {
+        font-size: 1rem;
+    }
+
+    #close-icon {
+        margin-right: 0;
+    }
+}
+
